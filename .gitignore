@@ -1,0 +1,39 @@
+# ===========================
+# Backend Python / TensorFlow
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.h5          # modèles lourds
+*.ipynb_checkpoints/
+env/
+venv/
+*.log
+*.sqlite3
+
+# ===========================
+# Frontend React / Node
+# ===========================
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.*.local
+# Logs npm/yarn
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================
+# IDEs
+# ===========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ===========================
+# System files
+# ===========================
+.DS_Store
+Thumbs.db
